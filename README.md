@@ -1,4 +1,4 @@
-# 3D Event Design Tool
+# VenuePlanner3D
 
 ## Descripción
 
