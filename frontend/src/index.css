@@ -39,6 +39,7 @@ body, html, #root {
   z-index: 2; /* Asegura que estén sobre el canvas */
   background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
   padding: 10px;
+  margin-top: 0px;
   border-radius: 5px;
 }
 
@@ -48,6 +49,6 @@ h1 {
 }
 
 .inventory {
-  top: 50px;
+  top: 100px;
   left: 10px;
 }
