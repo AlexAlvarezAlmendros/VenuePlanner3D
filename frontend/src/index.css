@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Evita cualquier tipo de scroll */
+}
+
+.App {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Asegura que el canvas esté detrás de otros elementos */
+}
+
+.inventory, h1 {
+  position: absolute;
+  z-index: 2; /* Asegura que estén sobre el canvas */
+  background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  top: 10px;
+  left: 10px;
+}
+
+.inventory {
+  top: 50px;
+  left: 10px;
+}
